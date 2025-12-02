@@ -37,7 +37,7 @@
                     </select>
                 </p>
                 <p>
-                    <label>Kön:</label>
+                    <label>Kön</label>
                 <div>
                     <input type="radio" id="genderChoice1" v-model="costumerGender" value="Kvinna" />
                     <label for="contactChoice1">Kvinna</label>
