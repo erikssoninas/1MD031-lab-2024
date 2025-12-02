@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Hamburgare!!</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Välkommen till min hamburgerrestaurang :D</h1>
+    </header>
+
+    <main>
+        <section id="burgers">
+            <h2>Är du sugen på att beställa hamburgare? Välj här!</h2>
+            <div>
+                <div class="menu-item">
+                    <h3>Hästburgare</h3>
+                    <img src="/img/hästburgare.png">
+                    <ul class="allergies">
+                        <li>Hästkött</li>
+                        <li>Gluten</li>
+                        <li>Morötter</li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <h3>Kattburgare</h3>
+                    <img src="/img/kattburgare.png">
+                    <ul class="allergies">
+                        <li>Kattkött</li>
+                        <li>Tonfisk</li>
+                        <li>Möss</li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <h3>Hundburgare</h3>
+                    <img src="/img/hundburgare.png">
+                    <ul class="allergies">
+                        <li>Hundkött</li>
+                        <li>Ben</li>
+                        <li>Korv</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Beställningsinformation</h2>
+            <form>
+                <p>
+                    <label for="name">Namn</label><br>
+                    <input type="text" id="name" name="n" required="required" placeholder="För- och efternamn">
+                </p>
+                <p>
+                    <label for="E-mail">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="street">Gata</label><br>
+                    <input type="text" id="street" name="str" placeholder="Gatunamn">
+                </p>
+                <p>
+                    <label for="housenumber">Husnummer</label><br>
+                    <input type="number" id="housenumber" name="hn" required="required" placeholder="Husnummer">
+                </p>
+                <p>
+                    <label for="recipient">Betalningsmetod</label>
+                    <be>
+                        <select id="recipient" name="rcp">
+                            <option selected="selected">Swish</option>
+                            <option>Kontant</option>
+                            <option>Bankkort</option>
+                            <option>Faktura</option>
+                        </select>
+                </p>
+                <p>
+                    <legend>Kön:</legend>
+                <div>
+                    <input type="radio" id="genderChoice1" name="gender" value="Kvinna" />
+                    <label for="contactChoice1">Kvinna</label>
+
+                    <input type="radio" id="genderChoice2" name="gender" value="Man" />
+                    <label for="genderChoice2">Man</label>
+
+                    <input type="radio" id="genderChoice3" name="gender" value="Icke-binär" />
+                    <label for="genderChoice3">Icke-binär</label>
+
+                    <input type="radio" id="genderChoice4" name="gender" value="Annan/vill inte ange" />
+                    <label for="genderChoice4">Annan/vill inte ange</label>
+                </div>
+                </p>
+            </form>
+
+        </section>
+        <button type="submit">
+            <img src="/img/bil.jfif" height="20">
+            Skicka beställning!
+        </button>
+        <footer>
+            <hr>
+            Hoppas du har en fin dag och att det smakar gott!
+            &copy;
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,21 +1,32 @@
-[{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+[
+    {
+        "name": "Hästburgare",
+        "kCal": 500,
+        "image": "/img/hästburgare.png",
+        "content": [
+            "Hästkött",
+            "Gluten",
+            "Morötter"
+        ]
+    },
+    {
+        "name": "Kattburgare",
+        "kCal": 300,
+        "image": "/img/kattburgare.png",
+        "content": [
+            "Kattkött",
+            "Tonfisk",
+            "Laktos"
+        ]
+    },
+    {
+        "name": "Hundburgare",
+        "kCal": 400,
+        "image": "/img/hundburgare.png",
+        "content": [
+            "Hundkött",
+            "Ben",
+            "Skinka"
+        ]
+    }
+]
